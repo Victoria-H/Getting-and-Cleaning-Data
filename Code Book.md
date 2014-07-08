@@ -18,7 +18,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 1. Description of the raw data and experiment
 2. Explanation of the raw data transformation to produce a tidy data set.
 
-(NOTE: No attempt is given here to justify experimental design, explain the signification or interpetation of the measurements nor analyse the results)
+(NOTE: No attempt is given here to justify experimental design, explain the signification or interpretation of the measurements nor analyse the results)
 
 
 ###1 THE RAW DATA AND EXPERIMENT
