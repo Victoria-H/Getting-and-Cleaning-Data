@@ -15,12 +15,12 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 
 ###CONTENTS
-1. Description of the original data and experiment
-2. Explanation of the data transformation to produce a tidy data set.
+1. Description of the raw data and experiment
+2. Explanation of the raw data transformation to produce a tidy data set.
 
 
 
-###THE ORIGINAL DATA AND EXPERIMENT
+###THE RAW DATA AND EXPERIMENT
 
 The experiment was carried out with 30 subjects within an age bracket of 19-48 years.  Each person performed six activities (WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope,  3-axial linear acceleration and 3-axial angular velocity measures were recorded.
 
@@ -29,14 +29,18 @@ From these measurements, a set of variables were estimated 'features'. These fea
 
 Details of the features are provided in the files features_info.txt and features.txt
 
-The orignal data was organised as follows.
-(description of what they will find in the file)
+The raw data was organised as follows.
+ * The obtained dataset was randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
+ * For each set 'test' and 'train' we have the measurements (folder 'inertial signals')
+ * For each set we have the 'features data' with corresponding files giving the subject and activity performed. 'X_train.txt'   'y_train.text' - activity references, and 'subject_train.txt' 
 
-###DATA TRANSFORMATION
-restate the inital objectives and describe what tidy is.
+###2 DATA TRANSFORMATION
 
-http://vita.had.co.nz/papers/tidy-data.pdf
-2.3. Tidy data
+
+
+Hadley Wickham describes tidy data as....  (http://vita.had.co.nz/papers/tidy-data.pdf)
+
+
 Tidy data is a standard way of mapping the meaning of a dataset to its structure. A dataset is
 messy or tidy depending on how rows, columns and tables are matched up with observations,
 variables and types. In tidy data:
