@@ -18,7 +18,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 1. Description of the raw data and experiment
 2. Explanation of the raw data transformation to produce a tidy data set.
 
-
+(NOTE: No attempt is given here to justify experimental design, explain the signification or interpetation of the measurements nor analyse the results)
 
 
 ###1 THE RAW DATA AND EXPERIMENT
@@ -62,9 +62,7 @@ variables and types. In tidy data:
 
 .
 
-**Procedure :**
-
-Write an R script 'run_analysis.R' to do the following...
+**Procedure :**  Write an R script 'run_analysis.R' to do the following...
 
 Step 1 - Merge the two data sets (test and training) and associate the corresponding activity,subject labels as well as the feature variable column names
 
@@ -83,7 +81,8 @@ Step 5 - Arrange these according to tidy data principals. Here a 'narrow' form w
 
 (NOTE1 : Feature names correspond to those used in the file 'features.txt' see note on nomenclature above. This decision was taken to ease name matching in further analysis)
 
-Thus the output of the R script is a table with 6x30x33 =5940 rows and 5 columns
+**Thus the output of the R script is a table with 6x30x33 =5940 rows and 5 columns**
+
 
 
 
