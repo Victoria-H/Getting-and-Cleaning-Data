@@ -9,7 +9,7 @@ More information is available at the site where the data was obtained:
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
-The data can be downloaded here. Consult the README.txt , features.info.txt and features.txt files.
+The data can be downloaded here. Consult the README.txt , features.info.txt and features.txt files included.
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
@@ -35,7 +35,7 @@ The raw data was organised as follows.
 
  * The obtained dataset was randomly partitioned into two sets, where 70% of the volunteer subjects was selected for generating the training data and 30% the test data. 
  * For each set 'test' and 'train' we have the unprocessed measurements  (folder 'inertial signals')
- * For each set we have the 'features' data (estmated variables) with corresponding files giving the subject and activity performed. e.g. For the training set :'X_train.txt' -table of normalised feature data,  'y_train.text' - activity references, and 'subject_train.txt' -subject references
+ * For each set we have the 'features' data (estimated variables) with corresponding files giving the subject and activity performed. e.g. For the training set :'X_train.txt' -table of normalised feature data,  'y_train.text' - activity references, and 'subject_train.txt' -subject references
  * 'features.txt' contains the corresponding column labels for both the 'X_train' and 'X_test' tables. 
 
 (NOTE ON NOMENCLATURE : In the column labels 'features.txt' fBodyBodyAccJerkMag fBodyBodyGyroMag fBodyBodyGyroJerkMag seem to correspond to fBodyAccJerkMag fBodyGyroMag fBodyGyroJerkMag as given in 'features_info.txt')
