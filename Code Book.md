@@ -35,6 +35,15 @@ The orignal data was organised as follows.
 ###DATA TRANSFORMATION
 restate the inital objectives and describe what tidy is.
 
+http://vita.had.co.nz/papers/tidy-data.pdf
+2.3. Tidy data
+Tidy data is a standard way of mapping the meaning of a dataset to its structure. A dataset is
+messy or tidy depending on how rows, columns and tables are matched up with observations,
+variables and types. In tidy data:
+1. Each variable forms a column.
+2. Each observation forms a row.
+3. Each type of observational unit forms a table.
+4. 
 talk about the steps to providing a tidy data set
 
 
