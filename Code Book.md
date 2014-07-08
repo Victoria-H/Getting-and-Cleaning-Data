@@ -20,6 +20,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 
 
+
 ###1 THE RAW DATA AND EXPERIMENT
 
 The experiment was carried out with 30 subjects within an age bracket of 19-48 years.  Each person performed six activities (WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope,  3-axial linear acceleration and 3-axial angular velocity measures were recorded.
@@ -59,7 +60,7 @@ variables and types. In tidy data:
 * Each observation forms a row.
 * Each type of observational unit forms a table.
 
-
+.
 
 **Procedure :**
 
