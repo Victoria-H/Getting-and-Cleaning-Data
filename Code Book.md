@@ -28,15 +28,16 @@ From these measurements, a set of variables were estimated corresponding to cert
 These variables given for these features included the mean and standard deviation for each measure. These were normalised (therefore NO UNITS).
 
 
-Details of the features are provided in the files features_info.txt and features.txt
+Details of the features are provided in the files features_info.txt and features.txt included in the downloaded dataset.
 
 The raw data was organised as follows.
 
- * The obtained dataset was randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
+ * The obtained dataset was randomly partitioned into two sets, where 70% of the volunteer subjects was selected for generating the training data and 30% the test data. 
  * For each set 'test' and 'train' we have the unprocessed measurements  (folder 'inertial signals')
- * For each set we have the 'features' data (estmated variables) with corresponding files giving the subject and activity performed. e.g. For the training set :'X_train.txt' -table of normalised feature data  'y_train.text' - activity references, and 'subject_train.txt' -subject references
- * 'features.txt' contains the corresponding column labels for the 'X_train' and 'X_test' tables. 
- * (NOTE ON NOMENCLATURE : In the column labels 'features.txt' fBodyBodyAccJerkMag fBodyBodyGyroMag fBodyBodyGyroJerkMag seem to correspond to fBodyAccJerkMag fBodyGyroMag fBodyGyroJerkMag as given in 'features_info.txt')
+ * For each set we have the 'features' data (estmated variables) with corresponding files giving the subject and activity performed. e.g. For the training set :'X_train.txt' -table of normalised feature data,  'y_train.text' - activity references, and 'subject_train.txt' -subject references
+ * 'features.txt' contains the corresponding column labels for both the 'X_train' and 'X_test' tables. 
+
+(NOTE ON NOMENCLATURE : In the column labels 'features.txt' fBodyBodyAccJerkMag fBodyBodyGyroMag fBodyBodyGyroJerkMag seem to correspond to fBodyAccJerkMag fBodyGyroMag fBodyGyroJerkMag as given in 'features_info.txt')
 
 
  
@@ -45,9 +46,9 @@ The raw data was organised as follows.
 
 ###2 DATA TRANSFORMATION
 
-Objective : To provide a tidy data set summarising the means and standard deviations (std) for the features by subject and activity performed. 
+**Objective :** To provide a tidy data set summarising the means and standard deviations (std) for the features by subject and activity performed. 
 
-Hadley Wickham describes tidy data as....  (http://vita.had.co.nz/papers/tidy-data.pdf)
+*Hadley Wickham describes tidy data as....  (http://vita.had.co.nz/papers/tidy-data.pdf)*
 
 
 Tidy data is a standard way of mapping the meaning of a dataset to its structure. A dataset is
@@ -58,7 +59,9 @@ variables and types. In tidy data:
 * Each observation forms a row.
 * Each type of observational unit forms a table.
 
-Procedure :
+
+
+**Procedure :**
 
 Write an R script 'run_analysis.R' to do the following...
 
